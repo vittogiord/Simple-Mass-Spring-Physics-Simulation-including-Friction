@@ -1,0 +1,7 @@
+initialize equilibriumPoint, initialStretch, actualPosition, mass, elasticConstant, frictionCoefficient, frictionForce, totalTimeOfMotion, basicTimeUnit, velocity, numbersOfTurns;
+for(int i= 1: basicTimeUnit*i<=totalTimeOfMotion*numbersOfTurns; i++)
+{
+	actualPosition= actualPosition+velocity*basicTimeUnit+0.5*((elasticConstant*(equilibriumPoint-actualPosition)+frictionForce)/mass*basicTimeUnit^2;
+	velocity= velocity+basicTimeUnit*(((elasticConstant*(equilibriumPoint-actualPosition)+frictionForce)/mass);
+	frictionForce= velocity / |velocity| * ( - |frictionForce|);
+}
